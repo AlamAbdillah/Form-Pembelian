@@ -14,13 +14,14 @@ Form pembelian merupakan halaman web untuk menghitung pembelian disebuah toko.
 
  ## Image page
  
- ### Order procces
+ ### detail pesanan yang sedang dalam proses
  <img src="https://user-images.githubusercontent.com/115331322/204836896-85b447b5-1d6b-47f0-8ca2-b66370921d09.png" width="800">
  
- ### Order procces
- <img src="https://user-images.githubusercontent.com/115331322/204836896-85b447b5-1d6b-47f0-8ca2-b66370921d09.png" width="800">
+ ### Form input pesanan dan pemesan
+ <img src="https://user-images.githubusercontent.com/115331322/204841842-353ad327-fb3e-4c32-a0f7-439ca8866628.png" width="800">
  
- ### Order procces
- <img src="https://user-images.githubusercontent.com/115331322/204836896-85b447b5-1d6b-47f0-8ca2-b66370921d09.png" width="800">
+ ### Form update pesanan, seperti mengubah nama, sosial media, tanggal, dan pesanan
+ <img src="https://user-images.githubusercontent.com/115331322/204842342-443f5822-af4e-43cb-a488-7d6f8a348c6c.png" width="800">
  
-<img src="https://github.com/AlamAbdillah/Form-Pembelian/img/index.png)" width="300px">
+ ## Penutup
+ Sekian project website saya terima kasih

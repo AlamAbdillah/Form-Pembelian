@@ -13,6 +13,21 @@ Form pembelian merupakan halaman web untuk menghitung pembelian disebuah toko.
  - Select database
  - Penghitungan pendapatan otomatis
 
+## Database
+conection database ada didalam file connection.php
+```
+$conn = mysqli_connect("localhost", "root", "", "kedai");
+```
+Nama database **kedai**</br>
+Nama table **pembelian**</br>
+Column:
+ - **status (varchar)**
+ - **nama (varchar)**
+ - **sosmed (varchar)**
+ - **tanggal (varchar)**
+ - **pesanan (varchar)**
+ - **total (integer)**
+
  ## Image page
  
  detail pesanan yang sedang dalam proses

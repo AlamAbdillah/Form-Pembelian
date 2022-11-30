@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eee;
+    font-family: sans-serif;
+}
+.container{
+    background: linear-gradient(90deg, #fff 50%, rgb(250, 250, 250) 10%, #fff 100%);
+    margin: 50px 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+form{
+    width: 40%;
+    position: relative;
+}
+.produk{
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form h1{
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+form p{
+    font-size: 14px;
+    color: #333333;
+}
+form input{
+    background: #fff;
+    color: #000;
+    border: none;
+    margin-bottom: 15px;
+    outline: none;
+    padding: 5px 0px;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 1px solid #757575;
+}
+form textarea{
+    margin: 15px 0px;
+    outline: none;
+    padding: 10px 10px;
+    width: 95%;
+    resize: none;
+    height: 150px;
+}
+form button{
+    padding: 5px 10px;
+    border: none;
+    background: blue;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+form a{
+    padding: 5px 10px;
+    border: none;
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.produk h2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.produk ul{
+    list-style: none;
+    margin-top: 30px;
+}
+.produk ul li{
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+.produk ul li:hover{
+    font-weight: bold;
+    transform: scale(1.2);
+}

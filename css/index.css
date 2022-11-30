@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background: #eee; 
+    font-family: sans-serif; 
+}
+.container{
+    margin: 80px;
+    padding: 50px;
+    background: #fff;
+}
+.container .box_pesan #add{
+    padding: 5px 10px;
+    border: none;
+    background: blue;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    outline: none;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.container .box_pesan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.container .pesanan{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 4px 3px 4px rgb(211, 211, 211);
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+}
+.container .pesanan p{
+    font-size: 14px;
+    font-weight: bold;    
+}
+.container .pesanan input{
+    background: #fff;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 5px 0px;
+    outline: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+.container .pesanan textarea{
+    resize: none;
+    outline: none;
+    height: 60px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(189, 189, 189);
+}
+.container .pesanan div {
+    margin-top: 10px;
+}
+.container .pesanan div a{
+    padding: 5px 10px;
+    border: none;
+    background: blue;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.container .pesanan div button{
+    padding: 5px 10px;
+    border: none;
+    background: red;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.container p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.container .user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container .user p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.container .user input{
+    background: #fff;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 5px 0px;
+    outline: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+.container .user button{
+    padding: 10px 10px;
+    border: none;
+    background: green;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.container .user b{
+    margin-left: 10px;
+    font-size: 16px;
+    border-bottom: 2px solid #000;
+}

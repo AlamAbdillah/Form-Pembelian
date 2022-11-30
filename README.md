@@ -10,4 +10,7 @@ Form pembelian merupakan halaman web untuk menghitung pembelian disebuah toko.
  - Update database
  - Select database
  - Penghitungan pendapatan otomatis
+ 
+ ![Uploading index.png…]()
+ 
 <img src="https://github.com/AlamAbdillah/Form-Pembelian/img/index.png)" width="300px">

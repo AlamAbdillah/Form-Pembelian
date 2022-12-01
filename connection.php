@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect("localhost", "root", "", "kedai");
+    $conn = mysqli_connect("localhost", "root", "", "mytoko");
     if (!$conn){
         //echo "connection error";
     }else{

@@ -16,9 +16,9 @@ Form pembelian merupakan halaman web untuk menghitung pembelian disebuah toko.
 ## Database
 conection database ada didalam file connection.php
 ```
-$conn = mysqli_connect("localhost", "root", "", "kedai");
+$conn = mysqli_connect("localhost", "root", "", "mytoko");
 ```
-Nama database **kedai**</br>
+Nama database **mytoko**</br>
 Nama table **pembelian**</br>
 Column:
  - **status (varchar)**
